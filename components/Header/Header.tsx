@@ -6,9 +6,15 @@ export default function Header() {
   return (
     <header sx={{...headerStyles.header,...globalStyles.container}}>
       <ul sx={headerStyles.navigationList }>
-        <li sx={headerStyles.navigation}>Home</li>
-        <li sx={headerStyles.navigation}>About</li>
-        <li sx={headerStyles.navigation}>Projects</li>
+        <li >
+          <a sx={headerStyles.navigation} href="#home">Home</a>
+        </li>
+        <li >
+          <a sx={headerStyles.navigation} href="#about_section">About</a>
+        </li>
+        <li >
+          <a sx={headerStyles.navigation} href="#project_section">Projects</a>
+        </li>
       </ul>
     </header>
   );

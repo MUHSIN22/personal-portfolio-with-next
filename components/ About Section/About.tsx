@@ -4,7 +4,7 @@ import aboutStyles from './styles.about';
 
 export default function About() {
     return (
-        <section sx={aboutStyles.aboutSection}>
+        <section id="about_section" sx={aboutStyles.aboutSection}>
             <div sx={aboutStyles.sliderWrapper}>
                 <h1 sx={aboutStyles.slider}>I am A web developer.I am a web developer.</h1>
                 <h1 sx={aboutStyles.slider}>I am A web developer.I am a web developer.</h1>

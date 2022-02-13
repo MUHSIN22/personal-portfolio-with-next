@@ -56,6 +56,8 @@ const aboutStyles = {
         gridRowGap:[null,null,null,null,'2rem'],
         margin: ['auto','auto','auto','auto','4rem 0'],
         maxWidth: '1000px',
+        paddingTop: [null,null,null,'5rem','0'],
+        paddingBottom: [null,null,null,'5rem','0'],
         "> *":{
             zIndex: '1'
         }

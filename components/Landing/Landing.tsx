@@ -1,16 +1,27 @@
 
 /** @jsxImportSource theme-ui */
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Link from "next/link";
 import globalStyles from "../../utils/styles.global";
 import landingStyles from "./styles.landing";
 
 export default function Landing() {
+
   return( 
-    <section sx={{...landingStyles.landing,...globalStyles.container}}>
+    <section id="home" sx={{...landingStyles.landing,...globalStyles.container}}>
         <div sx={landingStyles.socialMediaWrapper}>
-          <FontAwesomeIcon sx={landingStyles.icons} icon={["fab","twitter"]}/>
-          <FontAwesomeIcon sx={landingStyles.icons} icon={["fab","instagram"]}/>
-          <FontAwesomeIcon sx={landingStyles.icons} icon={["fab","linkedin-in"]}/>
+          <a href="https://twitter.com/MuhsinNeyyathur" target="_blank">
+            <FontAwesomeIcon sx={landingStyles.icons} icon={["fab","twitter"]}/>
+          </a>
+          <a href="https://www.instagram.com/_muhsin22" target="_blank">
+            <FontAwesomeIcon sx={landingStyles.icons} icon={["fab","instagram"]}/>
+          </a>
+          <a href="www.linkedin.com/in/muhsin-neyyathur" target="_blank">
+            <FontAwesomeIcon sx={landingStyles.icons} icon={["fab","linkedin-in"]}/>      
+          </a>
+          <a href="https://github.com/MUHSIN22" target="_blank">
+            <FontAwesomeIcon sx={landingStyles.icons} icon={["fab","github"]}/>
+          </a>
         </div>
         <div sx={landingStyles.mainTitle}>
           <h1 sx={{

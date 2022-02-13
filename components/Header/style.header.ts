@@ -5,6 +5,8 @@ const headerStyles:any = {
         alignItems: 'center',
         height: '4rem',
         justifyContent: 'flex-end',
+        position: 'relative' as 'relative',
+        zIndex: '10'
     },
     navigationList:{
         listStyle: 'none',
@@ -17,7 +19,9 @@ const headerStyles:any = {
         fontWeight: '500',
         fontSize: '1.1rem',
         textTransform: 'uppercase',
-        cursor: 'pointer'
+        cursor: 'pointer',
+        color: 'text',
+        textDecoration: 'none'
     }
 };
 export default headerStyles;

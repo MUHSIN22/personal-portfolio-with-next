@@ -5,8 +5,9 @@ import theme from '../utils/theme'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { faTwitter,faInstagram,faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
+import { faArrowUp } from '@fortawesome/free-solid-svg-icons'
 import Head from 'next/head'
-library.add(fab,faTwitter,faInstagram,faLinkedinIn)
+library.add(fab,faTwitter,faInstagram,faLinkedinIn,faArrowUp)
 
 function MyApp({ Component, pageProps }: AppProps) {
   return(
